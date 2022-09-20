@@ -1,0 +1,17 @@
+{
+  "name": "rez-qa-challenge",
+  "version": "1.0.0",
+  "description": "Solution for rez-qa-challenge",
+  "main": "index.js",
+  "scripts": {
+    "open-cypress": "npx cypress open",
+    "headless": "npx cypress run",
+    "story-One": "npx cypress run --spec cypress/e2e/story-one.cy.js",
+    "story-Two": "npx cypress run --spec cypress/e2e/story-two.cy.js"
+  },
+  "author": "Pawel Pomaniec",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^10.8.0"
+  }
+}
